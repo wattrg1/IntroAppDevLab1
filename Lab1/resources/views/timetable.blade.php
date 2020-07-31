@@ -12,22 +12,32 @@
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+	<style>
+		.timetable {
+			background-color: #fff2e6;
+			margin: 20px;
+			margin-top: 25px;
+		}
+		table td {
+			border: 1px solid #e6e6e6;
+		}
+	</style>
   </head>
   <body>
 
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<h1 class="text-center">
-				Timetable
+			<h1 class="text-center" style="margin-top: 20px">
+				Reuben's Timetable
 			</h1>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
+		<div class="timetable">
 			<table class="table">
-				<thead>
+				<thead style="background-color: #ffbf80">
 					<tr>
 						<th>
 							Time
@@ -57,7 +67,7 @@
 				</thead>
 				<tbody>
                     <tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							7:00
 						</td>
 						<td>
@@ -83,7 +93,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							8:00
 						</td>
 						<td class="table-active">
@@ -109,7 +119,7 @@
 						</td>
                     </tr>
                     <tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							9:00
 						</td>
 						<td class="table-active">
@@ -135,7 +145,7 @@
 						</td>
                     </tr>
                     <tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							10:00
 						</td>
 						<td>
@@ -161,7 +171,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							11:00
 						</td>
 						<td>
@@ -187,7 +197,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							12:00
 						</td>
 						<td>
@@ -213,7 +223,7 @@
 						</td>
                     </tr>
                     <tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							1:00
 						</td>
 						<td>
@@ -239,7 +249,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							2:00
 						</td>
 						<td>
@@ -265,7 +275,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							3:00
 						</td>
 						<td>
@@ -291,7 +301,7 @@
 						</td>
                     </tr>
                     <tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							4:00
 						</td>
 						<td>
@@ -317,7 +327,7 @@
 						</td>
                     </tr>
                     <tr>
-						<td>
+						<td style="background-color: #ffbf80">
 							5:00
 						</td>
 						<td>
@@ -344,6 +354,7 @@
 					</tr>
 				</tbody>
 			</table>
+		</div>
 		</div>
 	</div>
 </div>
