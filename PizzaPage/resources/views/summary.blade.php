@@ -15,7 +15,10 @@
 
   </head>
   <body>
-
+<?php
+//var_dump($formData);
+//echo $formData['topping1'];
+?>
     <div class="background">
     <div class="container-fluid">
 	<div class="row">
@@ -34,13 +37,18 @@
                     </div>
 				</div>
 			</div>
+            <form action ="{{url('/confirmation')}}" method = 'post'>
+                            {{csrf_field()}}
+                            <input type='hidden' name='topping1' value='<?=$formData['topping1']?>'>
+                                <input type='hidden' name='topping2' value='<?=$formData['topping2']?>'>
+                                <input type='hidden' name='topping3' value='<?=$formData['topping3']?>'>
 			<div class="row">
 				<div class="col-md-12">
                     <div class="greenBox">
                         <table border-width="1px" width="100%">
                             <tr>
-                                <td></td>
-                                <td></td>
+                                <td>Topping 1</td>
+                                <td><?=$formData['topping1']?></td>
                             </tr>
                             <tr>
                                 <td></td>
@@ -58,7 +66,10 @@
                         <p>Total cost is $</p>
                     </div>
                 </div>
+              
             </div>
+            <input type='submit' name='submit' value='submit' class='center'>
+            </form>
             <div class="row">
 				<div class="col-md-12">
                     <div class="rcorners2">
