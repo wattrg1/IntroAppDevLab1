@@ -1,0 +1,6 @@
+DB_CONNECTION=mysql
+DB_HOST=10.75.1.29
+DB_PORT=3306
+DB_DATABASE=wattrg1_in612
+DB_USERNAME=wattrg1
+DB_PASSWORD=chickenteriyaki
